@@ -1,0 +1,8 @@
+y=int(input("Enter the plise value of y="))
+z=int(input("Enter the plise value of z="))
+a=int(input("Enter the plise value of a="))
+b=int(input("Enter the plise value of b="))
+c=int(input("Enter the plise value of c="))
+x=int(input("Enter the plise value of x="))
+sum=((y-32)*(z+21)+(a+b+c)*(3.25*x))
+print("the result is =",sum)
