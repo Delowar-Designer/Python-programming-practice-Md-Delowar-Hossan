@@ -23,3 +23,8 @@ welcame() # এখানে যতগুলো ওয়েলকাম লি�
 welcame()
 welcame()
 welcame()
+
+def Delowar():
+    print("Hello Delowar")
+Delowar()
+Delowar()
