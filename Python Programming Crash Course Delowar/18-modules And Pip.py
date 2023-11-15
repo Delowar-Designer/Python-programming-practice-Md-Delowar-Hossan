@@ -49,4 +49,15 @@ number7 = 2
 result = math.cosh(number7)
 print("Cosh:",result)
 
+#date timemodules 
+import datetime
+x = datetime.datetime.now() #current date
+print("Current Datetime:",x)
+
+#date timemodules Today
+from datetime import date
+y = date.today() # Today
+print("Today:",y)
+
+
 
