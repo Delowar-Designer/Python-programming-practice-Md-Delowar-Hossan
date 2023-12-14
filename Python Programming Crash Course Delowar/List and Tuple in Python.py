@@ -21,4 +21,35 @@ print(fav_language)
 #append method to add python
 fav_language.append("Python")
 print(fav_language)
-fav_language.e
+fav_language.extend(["Python","jabascript","dart"])
+print(fav_language)
+
+#The list is concatenated
+fav_fruit = ["mango","apple","pranges"]
+#concatention
+print(fav_fruit + ["bannas","lemons","guava"])
+#repeating a list
+print(["Banglades"] * 5)
+country = ["Banglades"] * 4
+print(country)
+fav_fruit.insert(0,"Delowar")
+print(fav_fruit)
+
+#Delete or remove methods
+country = ["Bangladesh","india","pakistan"]
+country.pop()
+print("PoP",country)
+country = ["Bangladesh","india","pakistan"]
+country.remove("india")
+print("Remove",country)
+country = ["Bangladesh","india","pakistan"]
+country.clear()
+print("Clear",country)
+country = ["Bangladesh","india"]
+print(len(country))
+
+
+#Tuple in python
+my_tuple = (1,2,"string",True,3.5)
+print(my_tuple)
+print(my_tuple[4])
