@@ -11,3 +11,16 @@ if True :
 else:
     print("Answer")
     print("False")
+
+
+# Suites
+'''if expression:
+    suite
+elif expression:
+    suite
+else:
+    suite'''
+
+# Multiple statements on a line
+
+a=2; b=3; c=a+b;print(c)
