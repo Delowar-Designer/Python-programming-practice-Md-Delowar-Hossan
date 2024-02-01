@@ -1,0 +1,9 @@
+# Built-in list functions and methods enumearte functions
+grocery = ['bread','milk','butter']
+enumerateGrocery = enumerate(grocery)
+print(enumerateGrocery)
+# converting to list
+print(list(enumerateGrocery))
+# changing the default counter
+enumerateGrocery = enumerate(grocery, 10)
+print(list(enumerateGrocery))
