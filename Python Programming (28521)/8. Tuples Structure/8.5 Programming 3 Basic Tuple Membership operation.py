@@ -1,4 +1,4 @@
-# Basic Tuple Membership operation
+# Basic Tuple Membership operation in and not in
 Tuple1 = ("Delowar",602826,"Motu",58975)
 tor = ("Joty",89709,"Majdur",90832)
 
