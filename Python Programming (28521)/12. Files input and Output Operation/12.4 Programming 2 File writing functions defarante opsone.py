@@ -1,0 +1,10 @@
+# File writing functions defarante opsone
+info = open("info.txt","a")
+info.write("\nMy name is Md. Delowar Hossan.\n")
+info.write("I'm graduated from DUET\n")
+info.write("My District is Chattogram.\n")
+info.write("I ame an employee of Haque publication.\n")
+info.write("My Position is Rescarch & Write.\n")
+info.write("My Contact id is https://www.fb.com/delowar.designer\n")
+info.write("Companys id is https://www.fb.com/programerdelowar.designer")
+info.close()
