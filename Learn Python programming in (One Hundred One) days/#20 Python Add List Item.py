@@ -1,8 +1,9 @@
-import unittest
+#20 Python Add List Item
+thislist = ["apple","banana","cherry"]
+print(thislist)
+thislist.append(602826)
+print(thislist)
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
-
-if __name__ == '__main__':
-    unittest.main()
+# Insert IItems
+thislist.insert(0,"Google")
+print(thislist)
