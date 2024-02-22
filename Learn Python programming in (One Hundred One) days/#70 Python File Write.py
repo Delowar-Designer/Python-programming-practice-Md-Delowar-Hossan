@@ -7,4 +7,3 @@
 wr = open("text.txt","r")
 
 print(wr.read())
-
