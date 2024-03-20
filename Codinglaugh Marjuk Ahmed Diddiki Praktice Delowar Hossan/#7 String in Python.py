@@ -23,16 +23,34 @@ f = "learn "
 g = "something "
 h = "everyday "
 
-#e = e[:3]+"M"+e[4:]
-#print(e)
+e = e[:3]+"M"+e[4:]
+print(e)
 
-#print(e+f+g+h+"Delowar")
+
+E = "Delowar"
+for i in E:
+    print(i, end="")
+    
+E = "Delowar"
+for i in E:
+    print(i)
+    
+E = "Delowar"
+length = 0
+for i in E:
+    print(i, end="")
+    length += 1
+print()
+print(length)
+
+
+print(e+f+g+h+"Delowar")
 
 print(e*5)
 
 print("c" not in e)
 
-print(len(e))
+print(len(E))
 
 length = 0
 for i in e:
@@ -50,7 +68,7 @@ print(length)
 h = "codinglaugh"
 
 
-if "codingdshflaugh" != h:
+if "codinglaugh" != h:
     print("matched")
 else:
     print("something wrong")
@@ -64,7 +82,7 @@ else:
 i = "abc"
 j = "ABC"
 
-print(i>j)
+print(i<j)
 
 # print(e[-12])
 
@@ -86,7 +104,7 @@ a = "codinglaughsdh"
 b = 4
 c = 3.4534758
 
-# d = a + " {1} {0:.3f}".format(c,b)
+#d = a + " {1} {0:.3f}".format(c,b)
 
 d = "{0:$>20} {1} {0} marjuk".format(a,"jsdbf")
 
