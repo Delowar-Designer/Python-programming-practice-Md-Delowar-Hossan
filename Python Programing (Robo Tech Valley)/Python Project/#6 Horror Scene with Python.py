@@ -1,0 +1,35 @@
+# Horror Scene with Python
+import pygame
+from time import sleep
+
+pygame.init()
+window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+pygame.mixer.init()
+pygame.mixer.music.load('ratsasan.mp3')
+pygame.mixer.music.play()
+sleep(5)
+pygame.mixer.music.load('scary.mp3')
+pygame.mixer.music.play()
+sleep(1)
+image = pygame.image.load('scr.jpg')
+window.blit(image, (0, 0))
+pygame.display.update()
+sleep(2)
+
+sleep(2)
+pygame.mixer.music.load('scary.mp3')
+pygame.mixer.music.play()
+sleep(1)
+image = pygame.image.load('scr2.jpg')
+window.blit(image, (5, 10))
+pygame.display.update()
+sleep(1)
+
+sleep(2)
+pygame.mixer.music.load('scary.mp3')
+pygame.mixer.music.play()
+sleep(1)
+image = pygame.image.load('scr1.jpg')
+window.blit(image, (10, 20))
+pygame.display.update()
+sleep(3)
