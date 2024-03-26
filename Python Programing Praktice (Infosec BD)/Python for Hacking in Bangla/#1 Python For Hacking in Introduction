@@ -1,0 +1,46 @@
+Module 1: Introduction to Python Programming For Ethical Hacking
+
+                What is Python Programming?
+
+                Important of Python Programming for Ethical Hacking
+
+                Python Environment Setup
+
+Module 2:Python Basic Programming
+
+               Variables Declare
+               Input ,Output Function
+               If-else Statements
+               Loop ( for loop, while loop)
+               Python lists
+               Functions
+               Files in Python
+               Try and Except Rule
+
+Module 3 : Object-Oriented Python + Libraries
+
+                 Classes
+                 Object
+                 Import Modules and Libraries
+
+Module 4: Ethical Hacking Top 10  Tools Create Via Python Programming
+
+               1.  Create Domain To IP Converter Tools
+
+                2. Create Port Scanner ( Like Nmap or Rustscan ) Using Python
+
+                3. Create Source Code Downloader Tools
+
+                4. Website Enumeration
+
+                5. Create Keylogger Tools
+
+                6 . Create Backdoor
+
+                7. DNS Spoofing
+
+               8. Persistence Backdoor
+
+              9. Cryptographic Tools (RSA Hash Cracking )
+
+             10.Md5, SHA-1 Hash Cracker Tools
