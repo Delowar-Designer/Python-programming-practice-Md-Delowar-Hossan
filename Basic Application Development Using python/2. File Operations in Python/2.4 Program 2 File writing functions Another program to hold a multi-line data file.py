@@ -1,0 +1,10 @@
+# Another program to hold a multi-line data file
+info = open("info.txt","a")
+info.write("\nMy name is Md. Delowar Hossan.\n")
+info.write("I'M graduated from DPI\n")
+info.write("My District is Dinagput\n")
+info.write("I am an Delowar.Designer employee of Bangladesh.\n")
+info.write("my position is resarch & writer.\n")
+info.write("My Contact iss is delowar.designer@gmail.com\n")
+info.write("Companys is is ProgramerDelowar.Designer")
+info.close()
