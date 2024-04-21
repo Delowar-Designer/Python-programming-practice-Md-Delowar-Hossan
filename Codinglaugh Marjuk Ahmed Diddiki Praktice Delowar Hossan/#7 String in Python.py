@@ -100,12 +100,12 @@ print(e)
 # String format()
 # =============================================================================
 
-a = "codinglaughsdh"
+a = "programer Delowar.Designer"
 b = 4
 c = 3.4534758
 
 #d = a + " {1} {0:.3f}".format(c,b)
 
-d = "{0:$>20} {1} {0} marjuk".format(a,"jsdbf")
+d = "{0:$>20} {1} {0} Delowar".format(a,"jsdbf")
 
 print(d)
