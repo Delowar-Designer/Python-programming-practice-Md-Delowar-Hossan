@@ -1,6 +1,6 @@
 # Progrram Name 3 QR Code and Barcode genetator and decoding (Borcode Deecoder)
 # importing library
-'''import cv2
+import cv2
 from pyzbar.pyzbar import decode
 
 # Meke onne method to decode the barcode
@@ -40,8 +40,8 @@ if __name__ == "__main__":
     # take the image from user
     image = "img.jpg"
     BarcodeReader(image)
-'''
 
+'''
 import cv2
 from pyzbar.pyzbar import decode
 
@@ -76,3 +76,4 @@ def BarcodeReader(image):
 if __name__ == "__main__":
     image = "img.jpg"  # Update the image path accordingly
     BarcodeReader(image)
+'''
