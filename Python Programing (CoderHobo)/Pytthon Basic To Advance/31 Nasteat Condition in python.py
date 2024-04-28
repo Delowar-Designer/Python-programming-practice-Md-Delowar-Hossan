@@ -1,0 +1,1 @@
+# Nasteat Condition in python
